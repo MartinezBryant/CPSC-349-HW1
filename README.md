@@ -1,5 +1,5 @@
 # CPSC-349-HW1
-<!--Lab Week 1 Homework Assingment 
+Lab Week 1 Homework Assingment 
 CPSC 349  
 # My Information
 * Name: Bryant Martinez
@@ -9,4 +9,4 @@ CPSC 349
 This Coding Assingment requires me to recreate an website based on a video example, it will incorporate many aspects using html and css.
 01/22/2025
 - Checkin and starter code. 
--->
+
