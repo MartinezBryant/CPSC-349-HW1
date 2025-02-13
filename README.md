@@ -11,4 +11,6 @@ This Coding Assingment requires me to recreate an website based on a video examp
 - Checkin and starter code. 
 02/10/2025 
 - Updating Code And Checking Layout
+![alt text](BottomPage.png)
+![alt text](FrontPage.png)
 
