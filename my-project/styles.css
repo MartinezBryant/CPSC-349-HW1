@@ -24,11 +24,69 @@ For all other text, if not specified above, an approximate font size is acceptab
     padding: 0;
     box-sizing: border-box;
 }
+/* Body Formating */
 
 body {
-    margin-left: 500px;
+    font-family: Arial, sans-serif;
     color: #6f5eff;
-    font-weight: bold;
+}
+ /* Header Formating */
+
+header {
+    text-align: center;
     font-size: 1.5rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    color: black;
+    background-color: #f8f8f8;
+} 
+/* Navigation Formating */
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 150px;
+}
+
+nav h2 {
+    font-size: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+}
+/* Content Formating */
+.Content {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.Content h2 {
+    font-size: 20px;
+}
+
+/* Footer Formating */
+
+.Footer {
+    text-align: center;
+    display: flex;
+    gap: 150px;
+}
+.Footer h2 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Information Formating */
+
+.Infomation {
+    text-align: center;
+}
+.Infomation p {
+    font-size: 12px;
+}
+.Infomation h1 { 
+    font-size: 12px;
+
 }
