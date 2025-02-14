@@ -101,26 +101,26 @@ nav a {
 
 }
 .Footer {
+    justify-content: center;
     text-align: center;
     display: flex;
-    gap: 150px;
+    gap: 500px;
 }
 .Footer h2 {
     font-size: 14px;
     font-weight: bold;
+
 }
 
 /* Information Formating */
 
-.Infomation {
+.Information {
+    padding: 10px;;
+    font-size: 12px; 
+    padding-bottom: 50px;
+    justify-content: center;
     text-align: center;
     display: flex;
-    padding: 50px;;
-}
-.Infomation p {
-    font-size: 12px;
-}
-.Infomation h1 { 
-    font-size: 12px;
+    gap: 500px;
 
 }
