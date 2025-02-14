@@ -44,7 +44,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #f8f8f8;
+    background-color: #f1f1f1fd;
     text-align: center;
     padding: 20px;
     z-index: 1000;
@@ -95,17 +95,29 @@ nav a {
     justify-items: center;
     gap: 20px;
     padding-left: 150px;
+
     
 
+
 }
+
+/* Gallery Img + Button Formating */
+
 .GalleryOne, .GalleryTwo, .GalleryThree, .GalleryFour  {
-    width: 100%;
+    width: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 10px;
     height: auto;
+
+    border: 2px solid #ccc;
+    border-style: groove;
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px  rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    background-color: white;
 }
 
 .GalleryOne button, .GalleryTwo button, .GalleryThree button, .GalleryFour button {
@@ -114,7 +126,23 @@ nav a {
     background-color: #6f5eff;
     color: white;
     border: none;
+    border-style: groove;
+    border-color: transparent;
+    border-radius: 5px;
     cursor: pointer;
+
+}
+
+.Gallery img {
+    border-style: groove;
+    border-radius: 20px;
+    border-color: transparent;
+}
+.Gallery p {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
 }
 
 /* Footer Formating */
