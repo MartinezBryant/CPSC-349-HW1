@@ -11,6 +11,12 @@ This Coding Assingment requires me to recreate an website based on a video examp
 - Checkin and starter code. 
 02/10/2025 
 - Updating Code And Checking Layout
-![alt text](BottomPage.png)
-![alt text](FrontPage.png)
+![alt text](README-IMG/BottomPage.png)
+![alt text](README-IMG/FrontPage.png)
+
+02/13/2025
+- Updated Code: fixed boxes, how showcase butto and text
+- created drop shadow for each box and make it work
+![alt text](README-IMG/FrontPage2.png)
+![alt text](README-IMG/BackPage2.png)
 
