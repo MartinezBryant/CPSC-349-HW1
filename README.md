@@ -17,6 +17,6 @@ This Coding Assingment requires me to recreate an website based on a video examp
 02/13/2025
 - Updated Code: fixed boxes, how showcase butto and text
 - created drop shadow for each box and make it work
-![alt text](README-IMG/FrontPage2.png)
-![alt text](README-IMG/BackPage2.png)
 
+![alt text](README-IMG/TopPage2.png.png)
+![alt text](README-IMG/BottomPage2.png.png)
