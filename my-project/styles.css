@@ -22,7 +22,8 @@ For all other text, if not specified above, an approximate font size is acceptab
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: 90%;
+    max-height: 1024;
 }
 
 /* Body Formating */
@@ -33,7 +34,7 @@ body {
 
      /* Background Image Formating */
      background-image: url("image/background.jpg");
-     background-size: cover;
+     background-size: 100%;
      background-position: center;
      background-attachment: fixed;
 
@@ -44,10 +45,13 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #f1f1f1fd;
+    background-color:  ghostwhite;
     text-align: center;
-    padding: 20px;
+    padding: 50px;
     z-index: 1000;
+    border: groove;
+    border-radius: 2px;
+    border-color:lightgray;
 } 
 header h1 {
     font-size: 1.5rem;
@@ -80,9 +84,10 @@ nav a {
     padding-top: 50px;
     background-color: white;
     display: flex;
+    width: 100%;
 }
 .Content h2 {
-    padding-left: 200px;
+    padding-left: 80px;
     font-size: 20px;
 }
 /* Gallery Image Formating */
@@ -94,7 +99,7 @@ nav a {
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     gap: 20px;
-    padding-left: 150px;
+  
 
     
 
@@ -138,6 +143,7 @@ nav a {
     border-radius: 20px;
     border-color: transparent;
 }
+
 .Gallery p {
     color: black;
     font-size: 30px;
@@ -145,34 +151,72 @@ nav a {
     padding: 10px;
 }
 
+
 /* Footer Formating */
-.FooterInfo {
-    padding-top: 50px;
-    background-color: white;
+
+.Footer {
+    background-color:  ghostwhite;
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    color: black;
     
 
+}
 
+.Footer div {
+    margin: 0 10px
 }
-.Footer {
-    justify-content: center;
-    text-align: center;
-    display: flex;
-    gap: 500px;
-}
-.Footer h2 {
+
+.Footer h3 {
     font-size: 14px;
-    font-weight: bold;
+    margin-bottom: 10px;
+}
 
+.Footer p {
+    font-size: 12px ;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: text-decoration 0.3s ease;
+}
+
+/* Hover Underline */
+
+.Footer p:hover {
+    text-decoration: underline;
 }
 
 /* Information Formating */
 
-.Information {
-    font-size: 12px; 
-    padding-bottom: 50px;
-    justify-content: center;
-    text-align: center;
+.Information .About .Account .Policy {
     display: flex;
-    gap: 500px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: flex-start;
 
 }
+
+/* Button */
+
+.Information button {
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #6f5eff;
+    color: white;
+    border: none;
+    border-style: groove;
+    border-color: black;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+
+}
+/* Button  Transition Color */
+
+button:hover {
+    background-color: grey;
+}
+
+
